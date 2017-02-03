@@ -16,7 +16,6 @@ public class MaxConsecutiveOnes485 {
     	if (count > max) {
 			max = count;
 		}
-    	//System.out.print(max);
-        return 0;
+        return max;
     }
 }
