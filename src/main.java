@@ -14,5 +14,7 @@ public class main {
 		FindAllNumbersDisappearedinanArray448 test_2 = new FindAllNumbersDisappearedinanArray448();
 		int[] arr_1 = {1,2,3,3,5,6,7,8,10,10,10,12};
 		test_2.findDisappearedNumbers(arr_1);
+		ConstructtheRectangle492 test_3 = new ConstructtheRectangle492();
+		test_3.constructRectangle(1);
 	}
 }
