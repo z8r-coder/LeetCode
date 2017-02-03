@@ -1,4 +1,3 @@
-import javax.swing.table.TableStringConverter;
 
 public class main {
 
@@ -7,6 +6,7 @@ public class main {
 		test();
 	}
 	public  static void test() {
-		System.out.println("hello world");
+		NumberComplement476 test = new NumberComplement476();
+		test.findComplement(4);
 	}
 }
