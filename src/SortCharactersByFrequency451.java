@@ -21,9 +21,9 @@ public class SortCharactersByFrequency451 {
     		count++;
     	}
     	sort(fac, 0, fac.length - 1);
-    	for(int i = 0; i < fac.length;i++){
-    		System.out.println(fac[i].getFre());
-    	}
+//    	for(int i = 0; i < fac.length;i++){
+//    		System.out.println(fac[i].getFre());
+//    	}
     	StringBuilder sb = new StringBuilder();
     	for(int i = 0; i < fac.length;i++){
     		for(int j = 0; j < fac[i].getFre();j++){

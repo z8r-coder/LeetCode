@@ -20,5 +20,8 @@ public class main {
 		String str = "ewqqrrrwqtttttt";
 		String str_1 = "tree";
 		test_4.frequencySort(str);
+		FindAllDuplicatesinanArray442 test_5 = new FindAllDuplicatesinanArray442();
+		int[] arr_2 = {2,4,1,1,2,6,9,6,8};
+		test_5.findDuplicates(arr_2);
 	}
 }
