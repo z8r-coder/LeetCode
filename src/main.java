@@ -23,5 +23,11 @@ public class main {
 		FindAllDuplicatesinanArray442 test_5 = new FindAllDuplicatesinanArray442();
 		int[] arr_2 = {2,4,1,1,2,6,9,6,8};
 		test_5.findDuplicates(arr_2);
+		ProductofArrayExceptSelf238 test_6= new ProductofArrayExceptSelf238();
+		int[] arr_3 = {1,2,3,4};
+		test_6.productExceptSelf(arr_3);
+		TargetSum494 test_7 = new TargetSum494();
+		int[] arr_4 = {1,1,1,1,1};
+		test_7.findTargetSumWays(arr_4, 3);
 	}
 }
