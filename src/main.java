@@ -16,5 +16,9 @@ public class main {
 		test_2.findDisappearedNumbers(arr_1);
 		ConstructtheRectangle492 test_3 = new ConstructtheRectangle492();
 		test_3.constructRectangle(1);
+		SortCharactersByFrequency451 test_4 = new SortCharactersByFrequency451();
+		String str = "ewqqrrrwqtttttt";
+		String str_1 = "tree";
+		test_4.frequencySort(str);
 	}
 }

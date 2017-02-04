@@ -1,4 +1,3 @@
-import java.util.HashMap;
 
 public class ConstructtheRectangle492 {
     public int[] constructRectangle(int area) {
@@ -12,6 +11,7 @@ public class ConstructtheRectangle492 {
 				int temp = area / i;
 				int small = Math.abs(i - temp);
 				if (small < small_diff) {
+					small_diff = small;
 					small_w = i < temp?i:temp;
 					small_l = i > temp?i:temp;
 				}
