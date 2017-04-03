@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class main {
 
@@ -38,7 +40,19 @@ public class main {
 //			}
 //		}
 //		System.out.println("/////////////////////");
-		KthSmallestElement378 k = new KthSmallestElement378();
-		k.kthSmallest(matrix, 8);
+//		KthSmallestElement378 k = new KthSmallestElement378();
+//		k.kthSmallest(matrix, 8);
+//		int[] s = {1,7,2,5,2};
+//		int[] g = {5,1,8,5,1};
+//		AssignCookies455 ac = new AssignCookies455();
+//		ac.findContentChildren(g, s);
+		CombinationSumIII216 c = new CombinationSumIII216();
+		List<List<Integer>> test = c.combinationSum3(3, 9);
+		for(int i = 0; i < test.size();i++){
+			for(int j = 0; j < test.get(0).size();j++){
+				System.out.println(test.get(i).get(j));
+			}
+		}
+		
 	}
 }
