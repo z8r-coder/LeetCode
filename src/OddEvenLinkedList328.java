@@ -13,7 +13,6 @@ public class OddEvenLinkedList328 {
 			even = even.next;
 		}
 		odd.next = evenHead;
-
 		return head;
 
 	}
